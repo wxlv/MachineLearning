@@ -27,7 +27,7 @@ namespace SentimentAnalysis
             //加载训练数据集
             IDataView dataView = mLContext.Data.LoadFromTextFile<SentimentData>(_modelPath, hasHeader: false);
             //切分测试数据集（20%）
-            TrainTestData splitData = mLContext.Data.TrainTestSplit(dataView, testFraction: 0.2);
+            TrainTestData splitData = mLContext.Data.TrainTestSplit(dataView, testFraction: 0.1);
             return splitData;
         }
         /// <summary>
