@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextClassificationTF", "Tex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.csproj", "{46BAC16F-DB88-48DA-BE7B-2E212EA4C356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiFarePrediction", "TaxiFarePrediction\TaxiFarePrediction.csproj", "{7243D839-0326-4B12-9B03-84D19835076A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiFarePrediction", "TaxiFarePrediction\TaxiFarePrediction.csproj", "{7243D839-0326-4B12-9B03-84D19835076A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myMLAppML.Model", "myMLAppML.Model\myMLAppML.Model.csproj", "{0E45AA8F-74BB-4122-AD8B-B3F9182E9761}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myMLAppML.ConsoleApp", "myMLAppML.ConsoleApp\myMLAppML.ConsoleApp.csproj", "{5C62A527-A454-406D-916B-F70A0BD7C03E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{7243D839-0326-4B12-9B03-84D19835076A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7243D839-0326-4B12-9B03-84D19835076A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7243D839-0326-4B12-9B03-84D19835076A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E45AA8F-74BB-4122-AD8B-B3F9182E9761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E45AA8F-74BB-4122-AD8B-B3F9182E9761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E45AA8F-74BB-4122-AD8B-B3F9182E9761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E45AA8F-74BB-4122-AD8B-B3F9182E9761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C62A527-A454-406D-916B-F70A0BD7C03E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C62A527-A454-406D-916B-F70A0BD7C03E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C62A527-A454-406D-916B-F70A0BD7C03E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C62A527-A454-406D-916B-F70A0BD7C03E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
